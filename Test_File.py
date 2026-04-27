@@ -10,6 +10,6 @@ for line in lines:
     lastcol = line.split()[-1]
     year = firstcol[:4]
     yearformatted = int(year)
-    if yearformatted > 1926:
+    if yearformatted > 1927:
         print(yearformatted,seccol, thirdcol,fourcol, lastcol)
 
